@@ -7,15 +7,17 @@
 img {
     max-width: 100%;
 }
-ul{
+ul {
     list-style-type: none;
+}
+a {
+    text-decoration: none;
 }
 body {
    font-size: 14px;
    font-weight: 400;
    line-height: 1.7;
    font-family: 'Montserrat', sans-serif;
-   font-family: 'PT Serif', serif;;
 }
 
 /*======= General ====*/
