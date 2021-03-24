@@ -14,10 +14,11 @@ a {
     text-decoration: none;
 }
 body {
-   font-size: 14px;
-   font-weight: 400;
-   line-height: 1.7;
-   font-family: 'Montserrat', sans-serif;
+    color: #7b7b7b;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*======= General ====*/
@@ -27,7 +28,7 @@ body {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    background-color: darkcyan;
+    background-color: #fff;
 
 }
  /*======= Header ======*/
