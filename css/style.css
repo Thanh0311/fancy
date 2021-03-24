@@ -1,0 +1,46 @@
+/*=======Reset css====*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+ul{
+    list-style-type: none;
+}
+body {
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 1.7;
+   font-family: 'Montserrat', sans-serif;
+   font-family: 'PT Serif', serif;;
+}
+
+/*======= General ====*/
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: darkcyan;
+
+}
+ /*======= Header ======*/
+header{
+    background-color: lightpink;
+}
+
+
+ /*======= body website ======*/
+main{
+    background-color: lightyellow;
+ }
+
+
+ /*======= Footer ======*/
+footer{
+    background-color: rosybrown;
+ }
