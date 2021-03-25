@@ -28,9 +28,93 @@ body {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 30px; /*de nhin*/
+    padding-bottom: 30px;
     background-color: #fff;
+}
+.btn{
+    color: #fff;
+    cursor: pointer;
+    box-shadow: none;
+    font-weight: 700;
+    background-color: transparent;
+    border: 2px solid #7b7b7b;
+}
+
+/*====== Grid System cuả btn======*/
+.btn-uppercase {
+    text-transform: uppercase;
+}
+.btn-light {
+    color: #7b7b7b;
+    background-color: #fff;
+}
+.btn-light:hover{
+    color: #fff;
+    background-color: #7b7b7b;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #304771;
+}
+.btn-primary:hover{
+    color: #304771;
+    background-color: #fff;
+}
+.btn-size--medium{
+    font-size: 20px;
+    padding: 30px 70px;
+    border-radius: 65px;
+}
+.btn-size--small{
+    font-size: 12px;
+    padding: 16px 35px;
+    border-radius: 30px;
+}
+/*=======Grid System của title===*/
+.title-item{
+    text-align: center;
+    position: relative;
+}
+
+.main-tilte{
+    color: #333;
+    font-size: 120px;
+    font-weight: 700;
+    text-transform: uppercase;
+    opacity: 0.1;
+    position: relative;
+}
+.sub-tilte{
+    color: #333;
+    font-size: 36px;
+    font-weight: 700;
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    transform: translateY(75px);
+}
+.description{
+    font-size: 15px;
+    color: #7b7b7b;
+    font-weight: 700 !important;
 
 }
+.sub-tilte::before{
+    content: "";
+    background-color: #333;
+    width: 70px;
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* opacity: 1.2 !important; */
+}
+
+
+
  /*======= Header ======*/
 header{
     background-color: lightpink;
@@ -40,7 +124,8 @@ header{
  /*======= body website ======*/
 main{
     background-color: lightyellow;
- }
+}
+
 
 
  /*======= Footer ======*/
