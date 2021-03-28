@@ -31,6 +31,12 @@ body {
     background-color: #fff;
 
 }
+
+/*====Grid System of main-title =====*/
+
+
+
+
  /*======= Header ======*/
 header{
     background-color: lightpink;
@@ -39,7 +45,7 @@ header{
 
  /*======= body website ======*/
 main{
-    background-color: lightyellow;
+    background-color: rgb(9, 185, 216);
  }
 
 
